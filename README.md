@@ -1,5 +1,5 @@
 # sanple9
-DMM WEBCAMPの学習コンテンツHTML/CSSを学ぼうの研修課題です。
+DMM WEBCAMPの学習コンテンツHTML/CSSを学ぼうの提出課題です。
 
 ## 使い方
 
