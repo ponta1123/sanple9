@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  /*width: 100%;*/
+  height: 50px;
+  background-color: #FF9A4B;
+}
+
+
+
+main {           /*カンマがはいっていた*/
+  width: 960px;
+  /*margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  height: 300px;
+  background-color: #EEEEEE;
+  column-gap: 30px;*/
+  margin: 50px auto;
+  display: flex;
+
+}
+
+.box {
+  width: 300px;
+  background-color: #EEEEEE;
+  margin-right: 30px;
+  padding: 10px;
+  position: relative;
+}
+
+.box:last-child {
+  margin-right: 0;
+}
+
+.box1-text {
+  background-image: url(img/flow01.png);
+  background-size: cover;
+  background-position: bottom;
+  height: 150px;
+  /*background-position: center;*/
+}
+
+.box2-text {
+  background-image: url(img/flow02.png);
+  background-size: cover;
+  background-position: bottom;
+  height: 150px;
+}
+
+  .box3-text {
+  background-image: url(img/flow03.png);
+  background-size: cover;
+  background-position: bottom;
+  height: 150px;
+}
+
+.categor {
+  /*padding: 5px 8px;
+  background-color: #FF9A4B;
+  color: #fff;*/
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #FF9A4B;
+  color: #FFFFFF;
+}
+
+
+
+.box1-text-title {
+  margin: 15px 0 5px;
+}
+
+/*.box1-text-date {
+  font-size: 12px;*/
+
+
+footer {
+  /*width: 100%;*/
+  height: 50px;
+  background-color: #AAAAAA;
+}
+
+@media screen and (max-width: 768px) {
+main {
+  display: block;
+  width: 100%;
+}
+
+.box {
+  margin: auto;
+  width: 90%;
+  margin-bottom: 20px;
+
+
+}
+.box:last-child {
+  margin: auto;
+}
+}
